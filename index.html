@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Puppyland</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilo3.css">
+	<link rel="stylesheet" href="css/estilos4.css">
+	<link rel="stylesheet" href="css/estilo6.css">
+
+	<link rel="stylesheet" href="css/flecha.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/fonts">
+
+</head>
+
+<script>
+ $(function(){
+ 
+	 $('a[href*=#]').click(function() {
+
+	 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+		 && location.hostname == this.hostname) {
+
+			 var $target = $(this.hash);
+
+			 $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+			 if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+            }
+
+        }
+
+   });
+});
+</script>
+
+<body>
+
+	<div class="box-area">
+
+		<header>
+			<div class="wrapper">
+
+				<div class="logo">
+					<a href="#">Puppyland</a>
+				</div>
+				<nav>
+					<a href="index.html" class="active">Inicio</a>
+					<a href="#galeria">Galeria</a>
+					<a href="#tabla">Tabla de precios</a>
+					<a href="formulario.html">Formulario</a>
+					<a href="login.html">Iniciar Sesión</a>
+				</nav>
+			</div>
+		</header>
+
+		<div class="banner-area">
+			<h2>Bienvenidos</h2>
+		</div>
+
+		<div class="content-area1">
+			
+			<div class="wrapper">
+				<h2>Nosotros</h2>
+				<p>La Veterinaria Puppyland inició sus actividades el 28 de Setiembre del 2019. Sus fundadores, la  Dra. Daniela Montenegro, decidió ofrecer una propuesta médica innovadora, integral y de calidad.
+
+                Actualmente, es una Veterinaria que ofrece confianza y calidad al cliente, conformada por un equipos de 3 empleados, liderados por la Dra. Daniela Montenegro, en las sedes de San Juan de Miraflores.</p>
+			</div>
+		
+<span class="ir-arriba icon-arrow-up"></span>
+
+<div class="team-area" >
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="single-team">
+						<div class="img-area">
+							<img src="img/c1.jpg" class="img-responsive" alt="">
+							<div class="social">
+								<ul class="list-inline">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-text">
+							<h4>María Quispe</h4>
+							<h5>Médico Veterinario</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="single-team">
+						<div class="img-area">
+							<img src="img/c2.jpg" class="img-responsive" alt="">
+							<div class="social">
+								<ul class="list-inline">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-text">
+							<h4>Julio Apaza</h4>
+							<h5>Médico Veterinario</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="single-team">
+						<div class="img-area">
+							<img src="img/c3.jpg" class="img-responsive" alt="">
+							<div class="social">
+								<ul class="list-inline">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-text">
+							<h4>Ameth Rojas</h4>
+							<h5>Estilista</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+<section class="work-box" id="galeria">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="box-menu">
+						<ul>
+							<li class="mixitup-control-active" data-filter="*">Todo</li>
+							<li data-filter=".ui">Baño</li>
+							<li data-filter=".paint">Peinados / Cortes</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row box-list">
+
+				<div class="col-lg-4 mix box-item photo paint">
+					<img src="img/peinado.jpg" alt="">
+				</div>
+
+				<div class="col-lg-4 mix box-item ui">
+					<img src="img/baño.jpg" alt="">
+				</div>
+
+				<div class="col-lg-4 mix box-item ui">
+					<img src="img/baño2.jpg" alt="">
+				</div>
+
+				<div class="col-lg-4 mix box-item paint">
+					<img src="img/peinado2.jpg" alt="">
+				</div>
+
+				<div class="col-lg-4 mix box-item paint">
+					<img src="img/peinado3.jpg" alt="">
+				</div>
+
+				<div class="col-lg-4 mix box-item photo ui">
+					<img src="img/baño3.jpg" alt="">
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+
+<div class="wrapper2" id="tabla">
+
+		<div class="single-price2">
+			<h1>Promoción 1</h1>
+
+			<div class="price2">
+				<h2>S/.50</h2>
+			</div>
+
+			<div class="deals2">
+				<h4>Baño</h4>
+				<h4>Peinado</h4>
+				<h4>Desparacitación</h4>
+				<h4>Vacuna antirrábica</h4>
+			</div>
+
+			<a href="#">seleccionar</a>
+
+		</div>
+
+		<div class="single-price2">
+			<h1>Promoción 2</h1>
+
+			<div class="price2">
+				<h2>S/.35</h2>
+			</div>
+
+			<div class="deals2">
+				<h4>Baño</h4>
+				<h4>Paticure</h4>
+				<h4>Despulgado</h4>
+				<h4>Vacuna antirrábica</h4>
+			</div>
+
+			<a href="#">seleccionar</a>
+
+		</div>
+
+		<div class="single-price2">
+			<h1>Promoción 3</h1>
+
+			<div class="price2">
+				<h2>S/.55</h2>
+			</div>
+
+			<div class="deals2">
+				<h4>Baño</h4>
+				<h4>Peinado</h4>
+				<h4>Despulgado</h4>
+				<h4>Vacuna antirrábica</h4>
+			</div>
+
+			<a href="#">seleccionar</a>
+
+		</div>
+
+	</div>
+
+
+
+
+</div>
+
+		<footer>
+
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+						<h3>Divinector</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+						<h2>Divinector</h2>
+						<ul>
+							<li><a href="#">Event</a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Hosting</a></li>
+							<li><a href="#">Carrer</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
+						<h2>Follow Us</h2>
+						<p>please follow us on our social media profile in orden to keep update. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero.</p>
+
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>					
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-four md-mb-30 sm-mb-30">
+						<h2>Our Newletter</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+						<form action="">
+							<input type="email">
+							<input type="submit" value="subscribe">
+
+						</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</footer>
+
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			var mixer = mixitup('.box-list')
+		});
+	</script>
+
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/arriba.js"></script>
+
+
+</body>
+</html>

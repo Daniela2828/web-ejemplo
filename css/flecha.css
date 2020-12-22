@@ -1,0 +1,24 @@
+*{
+	margin: 0; padding: 0;
+}
+
+.contenido p{
+	margin-bottom: 1em;
+}
+
+.ir-arriba{
+	/*display: inline-block;*/
+	display: none;
+	padding: 20px;
+	background-color:#da4357;
+	font-size: 20px;
+	color:#fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.ir-arriba:hover{
+	background-color: #262626;
+}
